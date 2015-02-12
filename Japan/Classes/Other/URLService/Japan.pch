@@ -1,0 +1,32 @@
+//
+//  Japan.pch
+//  Japan
+//
+//  Created by lblzwx on 15-2-12.
+//  Copyright (c) 2015年 i-showing. All rights reserved.
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "common.h"
+#import "UIView+Frame.h"
+#import "UIImage+image.h"
+#import "UIBarButtonItem+Create.h"
+#import "UIView+Extension.h"
+#import "NSObject+Extension.h"
+#import "NSDate+LBExtension.h"
+#import "NSString+Extension.h"
+#import "NSString+Helper.h"
+
+
+
+
+#endif
+
